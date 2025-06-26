@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "item": "unusualfoodsdelight:clay_stove"
+    },
+    "title": {
+      "translate": "advancements.cheap_but_easy_to_use.title"
+    },
+    "description": {
+      "translate": "advancements.cheap_but_easy_to_use.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "cheap_but_easy_to_use_0": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "unusualfoodsdelight:clay_stove"
+          }
+        ]
+      }
+    }
+  },
+  "parent": "unusualfoodsdelight:unusual_food_s_delight_root"
+}

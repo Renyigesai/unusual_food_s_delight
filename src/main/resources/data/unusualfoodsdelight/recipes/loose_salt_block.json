@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "unusualfoodsdelight:salt"
+    }
+  },
+  "result": {
+    "item": "unusualfoodsdelight:loose_salt_block",
+    "count": 1
+  }
+}

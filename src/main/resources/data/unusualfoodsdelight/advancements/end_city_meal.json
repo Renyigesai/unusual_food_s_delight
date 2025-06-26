@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "unusualfoodsdelight:shulker_box_lunch"
+    },
+    "title": {
+      "translate": "advancements.end_city_meal.title"
+    },
+    "description": {
+      "translate": "advancements.end_city_meal.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "unusualfoodsdelight:cheap_but_easy_to_use",
+  "criteria": {
+    "end_city_meal": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "location": {
+            "structure": "minecraft:end_city"
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "unusualfoodsdelight:shulker_box_lunch"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

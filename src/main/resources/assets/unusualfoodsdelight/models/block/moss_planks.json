@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "unusualfoodsdelight:block/moss_planks",
+    "particle": "unusualfoodsdelight:block/moss_planks"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "unusualfoodsdelight:soft_cheese"
+    },
+    "title": {
+      "translate": "advancements.iron_cheese.title"
+    },
+    "description": {
+      "translate": "advancements.iron_cheese.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "unusualfoodsdelight:just_melt_in_the_mouth",
+  "criteria": {
+    "iron_cheese": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": [
+                "unusualfoodsdelight:soft_cheese"
+              ]
+            },
+            "offhand": {
+              "items": [
+                "minecraft:bucket"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

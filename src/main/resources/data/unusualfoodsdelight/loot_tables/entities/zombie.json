@@ -1,0 +1,39 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "unusualfoodsdelight:zombie_oil_block",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            }
+          ],
+          "conditions": []
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:looting_enchant",
+          "count": 1,
+          "limit": 3
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "flags": {
+              "is_on_fire": true
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "random_sequence": "unusualfoodsdelight:entities/zombie"
+}

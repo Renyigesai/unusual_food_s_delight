@@ -1,0 +1,41 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "unusualfoodsdelight:silverfish_meatball",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            }
+          ],
+          "conditions": []
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:looting_enchant",
+          "count": 1,
+          "limit": 3
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "killer",
+          "predicate": {
+            "equipment": {
+              "mainhand": {
+                "tag": "farmersdelight:tools/knives"
+              }
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "random_sequence": "unusualfoodsdelight:entities/silverfish"
+}

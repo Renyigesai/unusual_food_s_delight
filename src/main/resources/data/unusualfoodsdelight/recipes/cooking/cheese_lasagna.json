@@ -1,0 +1,25 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {
+      "item": "farmersdelight:tomato_sauce"
+    },
+    {
+      "item": "farmersdelight:minced_beef"
+    },
+    {
+      "item": "unusualfoodsdelight:soft_cheese_cube"
+    },
+    {
+      "item": "unusualfoodsdelight:dough_slice"
+    }
+  ],
+  "result": {
+    "item": "unusualfoodsdelight:cheese_lasagna"
+  },
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "experience": 0.35,
+  "cookingtime": 300
+}

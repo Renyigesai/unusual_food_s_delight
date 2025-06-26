@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:planks"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "unusualfoodsdelight:moss_planks_slab",
+      "unusualfoodsdelight:moss_planks_stairs",
+      "unusualfoodsdelight:moss_pianks"
+    ]
+  }
+}

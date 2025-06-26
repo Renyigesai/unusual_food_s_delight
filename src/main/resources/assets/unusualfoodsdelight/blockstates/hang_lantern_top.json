@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "unusualfoodsdelight:block/hang_lantern_top"
+    },
+    "facing=east": {
+      "model": "unusualfoodsdelight:block/hang_lantern_top",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "unusualfoodsdelight:block/hang_lantern_top",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "unusualfoodsdelight:block/hang_lantern_top",
+      "y": 270
+    }
+  }
+}

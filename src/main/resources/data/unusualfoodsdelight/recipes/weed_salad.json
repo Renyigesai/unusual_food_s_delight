@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "unusualfoodsdelight:weed"
+    },
+    {
+      "tag": "unusualfoodsdelight:weed"
+    },
+    {
+      "tag": "unusualfoodsdelight:weed"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "item": "unusualfoodsdelight:weed_salad",
+    "count": 1
+  }
+}

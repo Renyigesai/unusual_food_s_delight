@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "unusualfoodsdelight:spider_legs"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "unusualfoodsdelight:bake_spider_legs",
+      "unusualfoodsdelight:spider_legs_with_vegetables"
+    ]
+  }
+}

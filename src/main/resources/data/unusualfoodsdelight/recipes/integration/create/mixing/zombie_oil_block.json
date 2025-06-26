@@ -1,0 +1,30 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:rotten_flesh"
+    },
+{
+      "item": "minecraft:rotten_flesh"
+    },
+{
+      "item": "minecraft:rotten_flesh"
+    },
+{
+      "item": "minecraft:rotten_flesh"
+    }
+  ],
+  "results": [
+    {
+      "item": "unusualfoodsdelight:zombie_oil_block",
+      "count": 1
+    }
+  ],
+  "heatRequirement": "heated"
+}

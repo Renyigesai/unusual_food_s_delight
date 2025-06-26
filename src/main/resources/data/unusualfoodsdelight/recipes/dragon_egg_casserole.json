@@ -1,0 +1,22 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {
+      "item": "minecraft:dragon_egg"
+    },
+    {
+      "item": "unusualfoodsdelight:zombie_oil_block"
+    },
+    {
+      "tag": "forge:crops/tomato"
+    },
+    {
+      "tag": "forge:crops/cabbage"
+    }
+  ],
+  "result": {
+    "item": "unusualfoodsdelight:dragon_egg_casserole_block"
+  },
+  "experience": 0.35,
+  "cookingtime": 300
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "unusualfoodsdelight:block/moss_planks",
+    "top": "unusualfoodsdelight:block/moss_planks",
+    "side": "unusualfoodsdelight:block/moss_planks"
+  },
+  "render_type": "solid"
+}

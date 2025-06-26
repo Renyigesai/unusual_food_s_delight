@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "unusualfoodsdelight:block/moss_planks_slab"
+    },
+    "type=top": {
+      "model": "unusualfoodsdelight:block/moss_planks_slab_top"
+    },
+    "type=double": {
+      "model": "unusualfoodsdelight:block/moss_planks_slab_full"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {
+      "tag": "forge:milk"
+    },
+    {
+      "item": "unusualfoodsdelight:minced_bad_flesh"
+    },
+    {
+      "item": "unusualfoodsdelight:minced_bad_flesh"
+    },
+    {
+      "item": "unusualfoodsdelight:silverfish_meatball"
+    },
+    {
+      "item": "unusualfoodsdelight:zombie_oil_block"
+    },
+    {
+      "item": "minecraft:baked_potato"
+    }
+  ],
+  "result": {
+    "item": "unusualfoodsdelight:roast_cream_mixed_monster"
+  },
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "experience": 0.35,
+  "cookingtime": 200
+}

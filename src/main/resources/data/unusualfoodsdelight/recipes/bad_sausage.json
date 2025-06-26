@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "unusualfoodsdelight:minced_bad_flesh"
+    },
+    {
+      "tag": "forge:salt"
+    },
+    {
+      "item": "minecraft:phantom_membrane"
+    }
+  ],
+  "result": {
+    "item": "unusualfoodsdelight:bad_sausage",
+    "count": 2
+  }
+}

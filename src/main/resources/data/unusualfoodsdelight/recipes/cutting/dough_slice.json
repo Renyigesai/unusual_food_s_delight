@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "farmersdelight:wheat_dough"
+    }
+  ],
+  "tool": {
+    "item": "minecraft:stick"
+  },
+  "result": [
+    {
+      "item": "unusualfoodsdelight:dough_slice",
+      "count": 1
+    }
+  ]
+}

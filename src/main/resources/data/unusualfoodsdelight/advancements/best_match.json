@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:bread"
+    },
+    "title": {
+      "translate": "advancements.best_match.title"
+    },
+    "description": {
+      "translate": "advancements.best_match.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "unusualfoodsdelight:unusual_food_s_delight_root",
+  "criteria": {
+    "best_match": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": {
+          "effects": {
+            "unusualfoodsdelight:collocation": {}
+          }
+        }
+      }
+    }
+  }
+}

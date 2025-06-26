@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "misc",
+  "experience": 1,
+  "cookingtime": 600,
+  "ingredient": {
+    "item": "unusualfoodsdelight:spider_legs"
+  },
+  "result": "unusualfoodsdelight:bake_spider_legs"
+}

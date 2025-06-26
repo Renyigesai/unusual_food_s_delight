@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "unusualfoodsdelight:salt"
+    },
+    "title": {
+      "translate": "advancements.souse.title"
+    },
+    "description": {
+      "translate": "advancements.souse.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "unusualfoodsdelight:unusual_food_s_delight_root",
+  "criteria": {
+    "souse": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "block": "unusualfoodsdelight:well_salt_water"
+      }
+    }
+  }
+}

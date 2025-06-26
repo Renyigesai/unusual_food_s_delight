@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:golden_pickaxe"
+    },
+    "title": {
+      "translate": "advancements.super_doubling.title"
+    },
+    "description": {
+      "translate": "advancements.super_doubling.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "unusualfoodsdelight:full_of_energy",
+  "criteria": {
+    "super_doubling": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": {
+          "effects": {
+            "minecraft:haste": {
+              "amplifier": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "unusualfoodsdelight:scented_tea"
+          ]
+        }
+      }
+    }
+  }
+}
+

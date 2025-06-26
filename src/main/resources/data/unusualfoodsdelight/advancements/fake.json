@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "unusualfoodsdelight:gold_plating_apple"
+    },
+    "title": {
+      "translate": "advancements.fake.title"
+    },
+    "description": {
+      "translate": "advancements.fake.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "fake": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "unusualfoodsdelight:gold_plating_apple"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "parent": "unusualfoodsdelight:unusual_food_s_delight_root"
+}

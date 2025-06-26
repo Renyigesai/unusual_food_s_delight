@@ -1,0 +1,15 @@
+{
+  "name": "unusualfoodsdelight:salt_well_bottmo/salt_well_bottmo",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "unusualfoodsdelight:salt_well/salt_well_bottmo",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

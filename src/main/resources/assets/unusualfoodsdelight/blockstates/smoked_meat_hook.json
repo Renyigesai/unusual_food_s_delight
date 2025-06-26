@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "unusualfoodsdelight:block/smoked_meat_hook"
+    },
+    "facing=east": {
+      "model": "unusualfoodsdelight:block/smoked_meat_hook",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "unusualfoodsdelight:block/smoked_meat_hook",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "unusualfoodsdelight:block/smoked_meat_hook",
+      "y": 270
+    }
+  }
+}

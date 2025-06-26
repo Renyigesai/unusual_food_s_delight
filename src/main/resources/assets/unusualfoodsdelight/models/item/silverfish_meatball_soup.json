@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "unusualfoodsdelight:item/silverfish_meatball_soup"
+  }
+}

@@ -1,0 +1,43 @@
+{
+	"render_type": "minecraft:cutout",
+	"textures": {
+		"0": "unusualfoodsdelight:block/smoked_meat_hook",
+		"particle": "unusualfoodsdelight:block/smoked_meat_hook"
+	},
+	"elements": [
+		{
+			"from": [6.5, 4, 8],
+			"to": [9.5, 16, 8],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [3, 0, 0, 12], "texture": "#0"},
+				"south": {"uv": [0, 0, 3, 12], "texture": "#0"}
+			}
+		},
+		{
+			"from": [8, 4, 6.5],
+			"to": [8, 16, 9.5],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"east": {"uv": [3, 0, 6, 12], "texture": "#0"},
+				"west": {"uv": [6, 0, 3, 12], "texture": "#0"}
+			}
+		},
+		{
+			"from": [5.5, 0, 8],
+			"to": [10.5, 4, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.5, 2, 6]},
+			"faces": {
+				"north": {"uv": [11, 0, 16, 4], "texture": "#0"},
+				"east": {"uv": [0, 0, 0, 4], "texture": "#missing"},
+				"south": {"uv": [11, 0, 16, 4], "texture": "#0"},
+				"west": {"uv": [0, 0, 0, 4], "texture": "#missing"},
+				"up": {"uv": [0, 0, 4, 0], "texture": "#missing"},
+				"down": {"uv": [0, 0, 4, 0], "texture": "#missing"}
+			}
+		}
+	],
+	"display": {}
+}

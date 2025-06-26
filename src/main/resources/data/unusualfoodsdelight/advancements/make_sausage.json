@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "unusualfoodsdelight:bad_sausage"
+    },
+    "title": {
+      "translate": "advancements.make_sausage.title"
+    },
+    "description": {
+      "translate": "advancements.make_sausage.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "make_sausage_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "unusualfoodsdelight:bad_sausage"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "parent": "unusualfoodsdelight:unusual_food_s_delight_root"
+}

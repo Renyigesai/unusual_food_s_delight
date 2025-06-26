@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "unusualfoodsdelight:mixed_fruit_pie_slice"
+    }
+  },
+  "result": {
+    "item": "unusualfoodsdelight:mixed_fruit_pie",
+    "count": 1
+  }
+}

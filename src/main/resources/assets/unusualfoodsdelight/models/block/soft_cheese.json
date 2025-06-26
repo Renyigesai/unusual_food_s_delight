@@ -1,0 +1,9 @@
+{
+  "parent": "unusualfoodsdelight:custom/soft_cheese",
+  "textures": {
+    "all": "unusualfoodsdelight:block/soft_cheese",
+    "particle": "unusualfoodsdelight:block/soft_cheese",
+    "0": "unusualfoodsdelight:block/soft_cheese"
+  },
+  "render_type": "solid"
+}

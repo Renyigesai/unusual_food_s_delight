@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 "
+  ],
+  "key": {
+    "0": {
+      "tag": "forge:crops/cabbage"
+    },
+    "1": {
+      "item": "unusualfoodsdelight:bad_sausage"
+    },
+    "2": {
+      "item": "farmersdelight:tomato_sauce"
+    },
+    "4": {
+      "item": "minecraft:bread"
+    }
+  },
+  "result": {
+    "item": "unusualfoodsdelight:bad_hot_dog",
+    "count": 1
+  }
+}

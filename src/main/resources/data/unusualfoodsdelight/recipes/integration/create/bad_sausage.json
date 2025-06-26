@@ -1,0 +1,18 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "unusualfoodsdelight:minced_bad_flesh"
+    },
+    {
+      "item": "minecraft:phantom_membrane"
+    }
+  ],
+  "results": [
+    {
+      "item": "unusualfoodsdelight:bad_sausage",
+       "count": 1
+    }
+  ],
+  "keepHeldItem": false
+}

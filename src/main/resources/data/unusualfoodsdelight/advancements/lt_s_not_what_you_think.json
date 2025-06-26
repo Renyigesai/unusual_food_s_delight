@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "unusualfoodsdelight:human_sauce_bread"
+    },
+    "title": {
+      "translate": "advancements.lt_s_not_what_you_think.title"
+    },
+    "description": {
+      "translate": "advancements.lt_s_not_what_you_think.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "lt_s_not_what_you_think": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "unusualfoodsdelight:human_sauce_bread"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "parent": "unusualfoodsdelight:unusual_food_s_delight_root"
+}

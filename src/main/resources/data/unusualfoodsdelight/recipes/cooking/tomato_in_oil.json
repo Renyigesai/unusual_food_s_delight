@@ -1,0 +1,19 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {
+      "item": "unusualfoodsdelight:zombie_oil_block"
+    },
+    {
+      "tag": "forge:crops/tomato"
+    },
+    {
+      "tag": "forge:salt"
+    }
+  ],
+  "result": {
+    "item": "unusualfoodsdelight:tomato_in_oil"
+  },
+  "experience": 0.35,
+  "cookingtime": 50
+}

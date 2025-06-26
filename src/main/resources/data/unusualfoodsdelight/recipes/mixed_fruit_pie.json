@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:glow_berries"
+    },
+    "1": {
+      "item": "minecraft:glow_berries"
+    },
+    "2": {
+      "item": "minecraft:glow_berries"
+    },
+    "3": {
+      "item": "minecraft:sweet_berries"
+    },
+    "4": {
+      "item": "minecraft:sweet_berries"
+    },
+    "5": {
+      "item": "minecraft:sweet_berries"
+    },
+    "6": {
+      "item": "minecraft:sugar"
+    },
+    "7": {
+      "item": "farmersdelight:pie_crust"
+    },
+    "8": {
+      "item": "minecraft:sugar"
+    }
+  },
+  "result": {
+    "item": "unusualfoodsdelight:mixed_fruit_pie",
+    "count": 1
+  }
+}

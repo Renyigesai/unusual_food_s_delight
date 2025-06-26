@@ -1,0 +1,9 @@
+{
+  "variants": {
+    "": [
+      {"model": "unusualfoodsdelight:block/stone_bricks_trap1"},
+      {"model": "unusualfoodsdelight:block/stone_bricks_trap2"},
+      {"model": "unusualfoodsdelight:block/stone_bricks_trap3"}
+    ]
+  }
+}

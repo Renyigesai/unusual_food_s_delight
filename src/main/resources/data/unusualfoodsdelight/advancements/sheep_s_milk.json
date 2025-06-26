@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "unusualfoodsdelight:goat_milk_bucket"
+    },
+    "title": {
+      "translate": "advancements.sheep_s_milk.title"
+    },
+    "description": {
+      "translate": "advancements.sheep_s_milk.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "sheep_s_milk": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "unusualfoodsdelight:goat_milk_bucket"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "parent": "unusualfoodsdelight:unusual_food_s_delight_root"
+}

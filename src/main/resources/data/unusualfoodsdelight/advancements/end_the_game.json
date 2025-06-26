@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "item": "unusualfoodsdelight:spring_drinks"
+    },
+    "title": {
+      "translate": "advancements.unusualfoodsdelight.end_the_game.title"
+    },
+    "description": {
+      "translate": "advancements.unusualfoodsdelight.end_the_game.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "fake": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": {
+          "location": {
+            "dimension": "minecraft:the_end"
+          }
+        },
+        "item": {
+          "items": [
+            "unusualfoodsdelight:spring_drinks"
+          ]
+        }
+      }
+    }
+  },
+  "parent": "unusualfoodsdelight:get_spring_drinks"
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    " b "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:chain"
+    },
+    "b": {
+      "item": "minecraft:tripwire_hook"
+    }
+  },
+  "result": {
+    "item": "unusualfoodsdelight:smoked_meat_hook",
+    "count": 1
+  }
+}

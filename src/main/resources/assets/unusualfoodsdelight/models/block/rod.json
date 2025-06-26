@@ -1,0 +1,9 @@
+{
+  "parent": "unusualfoodsdelight:custom/rod",
+  "textures": {
+    "all": "unusualfoodsdelight:block/rod",
+    "particle": "unusualfoodsdelight:block/rod",
+    "1": "unusualfoodsdelight:block/rod"
+  },
+  "render_type": "solid"
+}

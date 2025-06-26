@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "entries": [
+    "unusualfoodsdelight:add_silverfish",
+    "unusualfoodsdelight:add_hoglin",
+    "unusualfoodsdelight:add_evoker",
+    "unusualfoodsdelight:add_pillager",
+    "unusualfoodsdelight:add_vindicator",
+    "unusualfoodsdelight:add_zombie",
+    "unusualfoodsdelight:add_spider",
+    "unusualfoodsdelight:add_desert_pyramid",
+    "unusualfoodsdelight:add_ruined_portal"
+  ]
+}

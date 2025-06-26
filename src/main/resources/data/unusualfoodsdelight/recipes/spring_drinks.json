@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "bcd",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:glass_bottle"
+    },
+    "b": {
+      "item": "minecraft:pink_petals"
+    },
+    "c": {
+      "item": "minecraft:apple"
+    },
+    "d": {
+      "item": "minecraft:pink_tulip"
+    }
+  },
+  "result": {
+    "item": "unusualfoodsdelight:spring_drinks",
+    "count": 1
+  }
+}

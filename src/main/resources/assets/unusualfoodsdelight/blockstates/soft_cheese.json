@@ -1,0 +1,15 @@
+{
+  "variants": {
+    "facing=east,cut=false": {"model": "unusualfoodsdelight:block/soft_cheese", "y": 270},
+    "facing=east,cut=true": {"model": "unusualfoodsdelight:block/soft_cheese_cut", "y": 270},
+
+    "facing=north,cut=false": {"model": "unusualfoodsdelight:block/soft_cheese", "y": 180},
+    "facing=north,cut=true": {"model": "unusualfoodsdelight:block/soft_cheese_cut", "y": 180},
+
+    "facing=south,cut=false": {"model": "unusualfoodsdelight:block/soft_cheese"},
+    "facing=south,cut=true": {"model": "unusualfoodsdelight:block/soft_cheese_cut"},
+
+    "facing=west,cut=false": {"model": "unusualfoodsdelight:block/soft_cheese", "y": 90},
+    "facing=west,cut=true": {"model": "unusualfoodsdelight:block/soft_cheese_cut", "y": 90}
+  }
+}

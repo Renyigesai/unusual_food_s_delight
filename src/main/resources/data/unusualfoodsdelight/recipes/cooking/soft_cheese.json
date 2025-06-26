@@ -1,0 +1,16 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {
+      "item": "unusualfoodsdelight:goat_milk_bucket"
+    },
+    {
+      "tag": "forge:salt"
+    }
+  ],
+  "result": {
+    "item": "unusualfoodsdelight:soft_cheese"
+  },
+  "experience": 0.35,
+  "cookingtime": 300
+}

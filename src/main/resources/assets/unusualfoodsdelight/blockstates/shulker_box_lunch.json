@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=east,bites=0": {"model": "unusualfoodsdelight:block/shulker_box_lunch1", "y": 270},
+    "facing=east,bites=1": {"model": "unusualfoodsdelight:block/shulker_box_lunch2", "y": 270},
+    "facing=east,bites=2": {"model": "unusualfoodsdelight:block/shulker_box_lunch3", "y": 270},
+    "facing=east,bites=3": {"model": "unusualfoodsdelight:block/shulker_box_lunch4", "y": 270},
+    "facing=east,bites=4": {"model": "unusualfoodsdelight:block/shulker_box_lunch5", "y": 270},
+
+    "facing=north,bites=0": {"model": "unusualfoodsdelight:block/shulker_box_lunch1", "y": 180},
+    "facing=north,bites=1": {"model": "unusualfoodsdelight:block/shulker_box_lunch2", "y": 180},
+    "facing=north,bites=2": {"model": "unusualfoodsdelight:block/shulker_box_lunch3", "y": 180},
+    "facing=north,bites=3": {"model": "unusualfoodsdelight:block/shulker_box_lunch4", "y": 180},
+    "facing=north,bites=4": {"model": "unusualfoodsdelight:block/shulker_box_lunch5", "y": 180},
+
+    "facing=south,bites=0": {"model": "unusualfoodsdelight:block/shulker_box_lunch1"},
+    "facing=south,bites=1": {"model": "unusualfoodsdelight:block/shulker_box_lunch2"},
+    "facing=south,bites=2": {"model": "unusualfoodsdelight:block/shulker_box_lunch3"},
+    "facing=south,bites=3": {"model": "unusualfoodsdelight:block/shulker_box_lunch4"},
+    "facing=south,bites=4": {"model": "unusualfoodsdelight:block/shulker_box_lunch5"},
+
+    "facing=west,bites=0": {"model": "unusualfoodsdelight:block/shulker_box_lunch1", "y": 90},
+    "facing=west,bites=1": {"model": "unusualfoodsdelight:block/shulker_box_lunch2", "y": 90},
+    "facing=west,bites=2": {"model": "unusualfoodsdelight:block/shulker_box_lunch3", "y": 90},
+    "facing=west,bites=3": {"model": "unusualfoodsdelight:block/shulker_box_lunch4", "y": 90},
+    "facing=west,bites=4": {"model": "unusualfoodsdelight:block/shulker_box_lunch5", "y": 90}
+  }
+}

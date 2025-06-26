@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "unusualfoodsdelight:slime_sauce"
+    },
+    "title": {
+      "translate": "advancements.unable_to_bite_off.title"
+    },
+    "description": {
+      "translate": "advancements.unable_to_bite_off.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "unusualfoodsdelight:cheap_but_easy_to_use",
+  "criteria": {
+    "unable_to_bite_off": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "unusualfoodsdelight:slime_sauce"
+          ]
+        }
+      }
+    }
+  }
+}

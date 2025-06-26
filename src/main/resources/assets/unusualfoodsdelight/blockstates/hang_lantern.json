@@ -1,0 +1,15 @@
+{
+  "variants": {
+    "facing=north,rod=false": {"model": "unusualfoodsdelight:block/hang_lantern"},
+    "facing=north,rod=true": {"model": "unusualfoodsdelight:block/hang_lantern_rod"},
+
+    "facing=east,rod=false": {"model": "unusualfoodsdelight:block/hang_lantern", "y": 90},
+    "facing=east,rod=true": {"model": "unusualfoodsdelight:block/hang_lantern_rod", "y": 90},
+
+    "facing=south,rod=false": {"model": "unusualfoodsdelight:block/hang_lantern", "y": 180},
+    "facing=south,rod=true": {"model": "unusualfoodsdelight:block/hang_lantern_rod", "y": 180},
+
+    "facing=west,rod=false": {"model": "unusualfoodsdelight:block/hang_lantern", "y": 270},
+    "facing=west,rod=true": {"model": "unusualfoodsdelight:block/hang_lantern_rod", "y": 270}
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "unusualfoodsdelight:spider_legs"
+    },
+    "1": {
+      "item": "unusualfoodsdelight:spider_legs"
+    },
+    "2": {
+      "item": "unusualfoodsdelight:spider_legs"
+    },
+    "3": {
+      "tag": "forge:crops/cabbage"
+    },
+    "4": {
+      "tag": "forge:crops/cabbage"
+    },
+    "5": {
+      "tag": "forge:crops/tomato"
+    },
+    "7": {
+      "item": "minecraft:bowl"
+    }
+  },
+  "result": {
+    "item": "unusualfoodsdelight:spider_legs_with_vegetables",
+    "count": 1
+  }
+}

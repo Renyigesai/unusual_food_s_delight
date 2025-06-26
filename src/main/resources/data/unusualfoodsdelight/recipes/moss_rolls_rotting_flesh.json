@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bbb",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:moss_carpet"
+    },
+    "b": {
+      "item": "minecraft:rotten_flesh"
+    }
+  },
+  "result": {
+    "item": "unusualfoodsdelight:moss_rolls_rotting_flesh",
+    "count": 3
+  }
+}

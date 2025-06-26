@@ -1,0 +1,24 @@
+{
+  "name": "illager_mobs",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "unusualfoodsdelight:labyrinth/evokers",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "unusualfoodsdelight:labyrinth/vindicators",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

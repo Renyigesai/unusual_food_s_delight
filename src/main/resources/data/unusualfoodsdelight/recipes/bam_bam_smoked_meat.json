@@ -1,0 +1,14 @@
+{
+  "type": "unusualfoodsdelight:smoked_meat",
+  "ingredients": [
+    [
+      {
+      "item": "unusualfoodsdelight:bad_flesh"
+    }
+    ]
+  ],
+  "output": {
+    "item": "unusualfoodsdelight:bam_bam_smoked_meat",
+    "count": 1
+  }
+}

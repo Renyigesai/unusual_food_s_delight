@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "farmersdelight:pie_crust"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "unusualfoodsdelight:mixed_fruit_pie",
+      "unusualfoodsdelight:mixed_fruit_pie_slice"
+    ]
+  }
+}

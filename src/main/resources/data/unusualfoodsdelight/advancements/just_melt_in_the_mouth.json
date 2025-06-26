@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "unusualfoodsdelight:soft_cheese_cube"
+    },
+    "title": {
+      "translate": "advancements.just_melt_in_the_mouth.title"
+    },
+    "description": {
+      "translate": "advancements.just_melt_in_the_mouth.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "just_melt_in_the_mouth_0": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "unusualfoodsdelight:soft_cheese_cube"
+          ]
+        }
+      }
+    }
+  },
+  "parent": "unusualfoodsdelight:sheep_s_milk"
+}

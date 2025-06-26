@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "unusualfoodsdelight:block/rod"
+    },
+    "facing=east": {
+      "model": "unusualfoodsdelight:block/rod",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "unusualfoodsdelight:block/rod",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "unusualfoodsdelight:block/rod",
+      "y": 270
+    }
+  }
+}

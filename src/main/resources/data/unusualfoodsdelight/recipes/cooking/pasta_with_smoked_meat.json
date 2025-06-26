@@ -1,0 +1,22 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {
+      "item": "unusualfoodsdelight:bam_bam_smoked_meat"
+    },
+    {
+      "tag": "forge:pasta"
+    },
+    {
+      "item": "unusualfoodsdelight:soft_cheese_cube"
+    }
+  ],
+  "result": {
+    "item": "unusualfoodsdelight:pasta_with_smoked_meat"
+  },
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "experience": 0.35,
+  "cookingtime": 300
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "farmersdelight:block/pie_slice3",
+  "textures": {
+    "particle": "unusualfoodsdelight:block/mixed_fruit_pie_top",
+    "bottom": "unusualfoodsdelight:block/pie_bottom",
+    "inner": "unusualfoodsdelight:block/mixed_fruit_pie_inner",
+    "side": "unusualfoodsdelight:block/pie_side",
+    "top": "unusualfoodsdelight:block/mixed_fruit_pie_top"
+  }
+}

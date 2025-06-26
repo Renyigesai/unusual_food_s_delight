@@ -1,0 +1,22 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "fluid": "unusualfoodsdelight:well_salt_water",
+      "amount": 1000
+    }
+  ],
+  "results": [
+    {
+      "item": "unusualfoodsdelight:salt",
+      "count": 9
+    }
+  ],
+  "heatRequirement": "heated"
+}

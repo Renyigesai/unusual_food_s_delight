@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    " d "
+  ],
+  "key": {
+    "a": {
+      "tag": "forge:raw_beef"
+    },
+    "b": {
+      "item": "minecraft:porkchop"
+    },
+    "c": {
+      "tag": "forge:raw_chicken"
+    },
+    "d": {
+      "item": "minecraft:bowl"
+    }
+  },
+  "result": {
+    "item": "unusualfoodsdelight:raw_barbecue",
+    "count": 1
+  }
+}

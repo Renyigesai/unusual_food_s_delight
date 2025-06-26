@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "unusualfoodsdelight:block/smoked_meat_campfire"
+    },
+    "facing=east": {
+      "model": "unusualfoodsdelight:block/smoked_meat_campfire",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "unusualfoodsdelight:block/smoked_meat_campfire",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "unusualfoodsdelight:block/smoked_meat_campfire",
+      "y": 270
+    }
+  }
+}

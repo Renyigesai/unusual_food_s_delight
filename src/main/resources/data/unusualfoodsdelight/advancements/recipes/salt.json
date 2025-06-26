@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "unusualfoodsdelight:salt"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "unusualfoodsdelight:salted_fish",
+      "unusualfoodsdelight:salted_fish_sandwich",
+    ]
+  }
+}

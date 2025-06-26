@@ -1,0 +1,9 @@
+{
+  "parent": "unusualfoodsdelight:custom/dragon_egg_casserole",
+  "textures": {
+    "all": "unusualfoodsdelight:block/dragon_egg_casserole",
+    "particle": "unusualfoodsdelight:block/dragon_egg_casserole",
+    "0": "unusualfoodsdelight:block/dragon_egg_casserole"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,26 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {
+      "item": "unusualfoodsdelight:spider_legs"
+    },
+    {
+      "item": "unusualfoodsdelight:spider_legs"
+    },
+    {
+      "item": "unusualfoodsdelight:spider_legs"
+    },
+    {
+      "item": "unusualfoodsdelight:spider_legs"
+    },
+    {
+      "item": "unusualfoodsdelight:zombie_oil_block"
+    }
+  ],
+  "result": {
+    "item": "unusualfoodsdelight:spider_leg_tempura",
+    "count": 4
+  },
+  "experience": 0.35,
+  "cookingtime": 300
+}

@@ -1,0 +1,14 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {
+      "item": "unusualfoodsdelight:well_salt_water_bucket"
+    }
+  ],
+  "result": {
+    "item": "unusualfoodsdelight:salt",
+    "count": 9
+  },
+  "experience": 0.35,
+  "cookingtime": 200
+}

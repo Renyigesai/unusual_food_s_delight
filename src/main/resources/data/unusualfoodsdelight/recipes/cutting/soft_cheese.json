@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "unusualfoodsdelight:soft_cheese"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  },
+  "result": [
+    {
+      "item": "unusualfoodsdelight:soft_cheese_cube",
+      "count": 4
+    }
+  ]
+}

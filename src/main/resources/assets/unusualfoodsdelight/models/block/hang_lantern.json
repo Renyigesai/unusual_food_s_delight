@@ -1,0 +1,10 @@
+{
+  "parent": "unusualfoodsdelight:custom/hang_lantern",
+  "textures": {
+    "all": "unusualfoodsdelight:block/hang_lantern",
+    "particle": "unusualfoodsdelight:block/hang_lantern",
+    "0": "unusualfoodsdelight:block/hang_lantern",
+    "1": "unusualfoodsdelight:block/hang_lantern_rod"
+  },
+  "render_type": "solid"
+}
