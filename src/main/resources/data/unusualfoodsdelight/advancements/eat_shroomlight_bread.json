@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "item": "unusualfoodsdelight:shroomlight_bread"
+    },
+    "title": {
+      "translate": "advancements.eat_shroomlight_bread.title"
+    },
+    "description": {
+      "translate": "advancements.eat_shroomlight_bread.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "unusualfoodsdelight:unusual_food_s_delight_root",
+  "criteria": {
+    "super_doubling": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "unusualfoodsdelight:shroomlight_bread"
+          ]
+        }
+      }
+    }
+  }
+}
+

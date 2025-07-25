@@ -1,0 +1,29 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {
+      "tag": "forge:dough"
+    },
+    {
+      "item": "unusualfoodsdelight:bam_bam_smoked_meat"
+    },
+    {
+      "item": "unusualfoodsdelight:bam_bam_smoked_meat"
+    },
+    [
+      {
+        "tag": "forge:salad_ingredients/cabbage"
+      },
+      {
+        "tag": "forge:crops/cabbage"
+      }
+    ]
+
+  ],
+  "result": {
+    "item": "unusualfoodsdelight:smoked_rougamo",
+    "count": 2
+  },
+  "experience": 0.35,
+  "cookingtime": 200
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "unusualfoodsdelight:shroomlight_bread"
+    },
+    {
+      "item": "unusualfoodsdelight:spider_leg_tempura"
+    },
+    {
+      "item": "unusualfoodsdelight:minced_bad_flesh"
+    },
+    {
+      "tag": "forge:salad_ingredients"
+    },
+    {
+      "tag": "forge:crops/tomato"
+    }
+  ],
+  "result": {
+    "item": "unusualfoodsdelight:shroomlight_hamburger"
+  }
+}

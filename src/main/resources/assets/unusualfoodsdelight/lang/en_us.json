@@ -129,5 +129,13 @@
   "advancements.unusualfoodsdelight.end_the_game.title": "End The Game",
   "advancements.unusualfoodsdelight.end_the_game.descr": "Drink the spring drink at the end of the world(Hide achievement)",
   "advancements.unusualfoodsdelight.get_creeper_gas.title": "Crackling sound",
-  "advancements.unusualfoodsdelight.get_creeper_gas.descr": "Right-click Creeper on the glass bottle to get Creeper Gas, which seems to be able to be used in campfires."
+  "advancements.unusualfoodsdelight.get_creeper_gas.descr": "Right-click Creeper on the glass bottle to get Creeper Gas, which seems to be able to be used in campfires.",
+  "item.unusualfoodsdelight.smoked_rougamo": "Smoked Rougamo",
+  "item.unusualfoodsdelight.shroomlight_bread": "Shroomlight Bread",
+  "item.unusualfoodsdelight.shroomlight_hamburger": "Shroomlight Hamburger",
+  "item.unusualfoodsdelight.zombie_oil_nian_gao": "Zombie Oil Nian Gao",
+  "advancements.get_zombie_oil_nian_gao.title": "When people praise each other, they become taller",
+  "advancements.get_zombie_oil_nian_gao.descr": "Get Zombie Oil Nian Gao.",
+  "advancements.eat_shroomlight_bread.title": "§dKi§br§ea §dKi§br§ea!",
+  "advancements.eat_shroomlight_bread.descr": "§dEat §bShroomlight §eBread."
 }

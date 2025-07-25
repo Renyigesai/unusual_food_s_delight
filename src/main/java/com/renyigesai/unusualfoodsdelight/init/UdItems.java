@@ -73,9 +73,12 @@ public class UdItems {
     public static final RegistryObject<Item> RAW_BARBECUE;
     public static final RegistryObject<Item> BLAZE_BARBECUE;
     public static final RegistryObject<Item> SPRING_DRINKS;
-//    public static final RegistryObject<Item> CREEPER_SANDWICH_CAKE;
     public static final RegistryObject<Item> SPIDER_LEG_TEMPURA;
+    public static final RegistryObject<Item> SMOKED_ROUGAMO;
     public static final RegistryObject<Item> PASTA_WITH_SMOKED_MEAT;
+    public static final RegistryObject<Item> SHROOMLIGHT_BREAD;
+    public static final RegistryObject<Item> SHROOMLIGHT_HAMBURGER;
+    public static final RegistryObject<Item> ZOMBIE_OIL_NIAN_GAO;
 
 
     static {
@@ -105,7 +108,7 @@ public class UdItems {
         GOAT_MILK_BUCKET = REGISTER.register("goat_milk_bucket",()->
                 new MilkBucketItem(new Item.Properties().stacksTo(1).craftRemainder(Items.BUCKET)));
         CREEPER_GAS = REGISTER.register("creeper_gas",()->
-                new Item(new Item.Properties().stacksTo(16).craftRemainder(Items.GLASS_BOTTLE)));
+                new Item(new Item.Properties().stacksTo(16).rarity(Rarity.RARE).craftRemainder(Items.GLASS_BOTTLE)));
         /*食物*/
         WEED_SALAD = REGISTER.register("weed_salad",()->
                 new BowlFoodItem(new Item.Properties().food(UdFood.WEED_SALAD).stacksTo(16)));
@@ -170,9 +173,15 @@ public class UdItems {
         SPRING_DRINKS = REGISTER.register("spring_drinks",()->
                 new DrinkableItem(new Item.Properties().craftRemainder(Items.GLASS_BOTTLE).stacksTo(16).food(UdFood.SPRING_DRINKS),true));
 
-//        CREEPER_SANDWICH_CAKE = food("creeper_sandwich_cake",UdFood.CREEPER_SANDWICH_CAKE,true);
-
         SPIDER_LEG_TEMPURA = food("spider_leg_tempura",UdFood.SPIDER_LEG_TEMPURA);
+
+        SMOKED_ROUGAMO = food("smoked_rougamo",UdFood.SMOKED_ROUGAMO,true);
+
+        SHROOMLIGHT_BREAD = food("shroomlight_bread",UdFood.SHROOMLIGHT_BREAD,true);
+
+        SHROOMLIGHT_HAMBURGER = food("shroomlight_hamburger",UdFood.SHROOMLIGHT_HAMBURGER,true);
+
+        ZOMBIE_OIL_NIAN_GAO = food("zombie_oil_nian_gao",UdFood.ZOMBIE_OIL_NIAN_GAO,true);
 
         PASTA_WITH_SMOKED_MEAT = bowlFoodItem("pasta_with_smoked_meat",UdFood.PASTA_WITH_SMOKED_MEAT,true);
     }

@@ -50,6 +50,7 @@ public class UnusualFoodDelight {
         UdParticleTypes.REGISTRY.register(bus);
         UdEnchantments.ENCHANTMENTS.register(bus);
         UdGroup.CREATIVE_TABS.register(bus);
+        ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, Config.SPEC);
     }
 
     @SubscribeEvent

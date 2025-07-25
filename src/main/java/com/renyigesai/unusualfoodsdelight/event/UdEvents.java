@@ -1,5 +1,6 @@
 package com.renyigesai.unusualfoodsdelight.event;
 
+import com.renyigesai.unusualfoodsdelight.Config;
 import com.renyigesai.unusualfoodsdelight.block.smoked_meat_campfire.SmokedMeatCampfireBlock;
 import com.renyigesai.unusualfoodsdelight.init.UdBlocks;
 import com.renyigesai.unusualfoodsdelight.init.UdItems;
@@ -12,7 +13,9 @@ import net.minecraft.util.Mth;
 import net.minecraft.util.RandomSource;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResult;
+import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.entity.Entity;
+import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.animal.goat.Goat;
 import net.minecraft.world.entity.monster.Blaze;
 import net.minecraft.world.entity.monster.Creeper;
@@ -23,6 +26,8 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.CampfireBlock;
 import net.minecraft.world.level.block.state.BlockState;
+import net.minecraftforge.event.entity.living.LivingEvent;
+import net.minecraftforge.event.entity.player.PlayerEvent;
 import net.minecraftforge.event.entity.player.PlayerInteractEvent;
 import net.minecraftforge.event.furnace.FurnaceFuelBurnTimeEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -124,6 +129,21 @@ public class UdEvents {
         ItemStack itemstack = event.getItemStack();
         if (itemstack.getItem() == UdItems.ZOMBIE_OIL_BLOCK.get())
             event.setBurnTime(1200);
+    }
+
+    @SubscribeEvent
+    public static void onLivingTick(LivingEvent.LivingTickEvent event){
+        if (!Config.dispel_the_darkness)
+            return;
+        Level level = event.getEntity().level();
+        LivingEntity entity = event.getEntity();
+        if (!(entity instanceof Player))
+            return;
+        if (!level.isClientSide) {
+            if (entity.hasEffect(MobEffects.DARKNESS) && entity.hasEffect(MobEffects.GLOWING)) {
+                entity.removeEffect(MobEffects.DARKNESS);
+            }
+        }
     }
 
 }

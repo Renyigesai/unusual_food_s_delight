@@ -89,4 +89,12 @@ public class UdFood {
 
     public static final FoodProperties PASTA_WITH_SMOKED_MEAT = new FoodProperties.Builder().nutrition(12).saturationMod(0.875F).effect(()->new MobEffectInstance(ModEffects.NOURISHMENT.get(),6000),1F).effect(()->new MobEffectInstance(UdMobEffects.BULGING_WITH_ANGER.get(),3600),1F).build();
 
+    public static final FoodProperties SMOKED_ROUGAMO = new FoodProperties.Builder().nutrition(10).saturationMod(0.8F).effect(()->new MobEffectInstance(UdMobEffects.BULGING_WITH_ANGER.get(),3600),1F).build();
+
+    public static final FoodProperties SHROOMLIGHT_BREAD = new FoodProperties.Builder().nutrition(5).saturationMod(0.6F).effect(()->new MobEffectInstance(MobEffects.GLOWING,3600),1F).alwaysEat().build();
+
+    public static final FoodProperties SHROOMLIGHT_HAMBURGER = new FoodProperties.Builder().nutrition(12).saturationMod(1.25F).effect(()->new MobEffectInstance(MobEffects.GLOWING,3600),1F).effect(new MobEffectInstance(MobEffects.DAMAGE_BOOST,200),1F).effect(new MobEffectInstance(MobEffects.HERO_OF_THE_VILLAGE,6000),1F).build();
+
+    public static final FoodProperties ZOMBIE_OIL_NIAN_GAO = new FoodProperties.Builder().nutrition(5).saturationMod(0.8F).effect(()->new MobEffectInstance(MobEffects.FIRE_RESISTANCE,3600),1F).effect(new MobEffectInstance(MobEffects.HUNGER,200),0.3F).alwaysEat().build();
+
 }

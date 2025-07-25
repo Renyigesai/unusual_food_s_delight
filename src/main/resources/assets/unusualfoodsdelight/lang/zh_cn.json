@@ -41,6 +41,10 @@
   "item.unusualfoodsdelight.bam_bam_smoked_meat": "嘭嘭腊肉",
   "item.unusualfoodsdelight.creeper_gas": "苦力怕气体",
   "item.unusualfoodsdelight.pasta_with_smoked_meat": "腊肉意面",
+  "item.unusualfoodsdelight.smoked_rougamo": "腊肉夹馍",
+  "item.unusualfoodsdelight.shroomlight_bread": "菌光体面包",
+  "item.unusualfoodsdelight.shroomlight_hamburger": "菌光体汉堡包",
+  "item.unusualfoodsdelight.zombie_oil_nian_gao": "僵油年糕",
   "farmersdelight.tooltip.sugarcane_juice": "瞬间恢复少量生命值",
   "advancements.end_city_meal.descr": "在末地城食用一盒潜影盒饭",
   "advancements.cheap_but_easy_to_use.descr": "放置一个土砌炉",
@@ -118,5 +122,9 @@
   "advancements.unusualfoodsdelight.end_the_game.title": "我是来结束这个游戏的",
   "advancements.unusualfoodsdelight.end_the_game.descr": "在末地饮用春日饮(隐藏进度)",
   "advancements.unusualfoodsdelight.get_creeper_gas.title": "哔哩哔哩噼里啪啦",
-  "advancements.unusualfoodsdelight.get_creeper_gas.descr": "用玻璃瓶右键苦力怕得到苦力怕气体，它似乎可以被用在营火上。"
+  "advancements.unusualfoodsdelight.get_creeper_gas.descr": "用玻璃瓶右键苦力怕得到苦力怕气体，它似乎可以被用在营火上。",
+  "advancements.get_zombie_oil_nian_gao.title": "人捧人糕",
+  "advancements.get_zombie_oil_nian_gao.descr": "获得一个僵油年糕。",
+  "advancements.eat_shroomlight_bread.title": "§dKi§br§ea §dKi§br§ea!",
+  "advancements.eat_shroomlight_bread.descr": "§d食用一§b个菌光§e体面包。"
 }
