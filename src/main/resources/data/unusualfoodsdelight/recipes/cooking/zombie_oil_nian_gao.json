@@ -5,17 +5,15 @@
       "item": "unusualfoodsdelight:zombie_oil_block"
     },
     {
-      "item": "minecraft:rotten_flesh"
+      "item": "farmersdelight:cooked_rice"
     },
     {
-      "item": "minecraft:rotten_flesh"
-    },
-    {
-      "item": "minecraft:rotten_flesh"
+      "item": "minecraft:sugar"
     }
   ],
   "result": {
-    "item": "unusualfoodsdelight:zombie_oil_block"
+    "item": "unusualfoodsdelight:zombie_oil_nian_gao",
+    "count": 2
   },
   "experience": 0.35,
   "cookingtime": 200
