@@ -56,7 +56,7 @@ public class RoastCreamMixedMonsterBlock extends HorizontalDirectionalBlock {
             return InteractionResult.SUCCESS;
         }
         if (pPlayer.canEat(false)) {
-            pPlayer.getFoodData().eat(5, 6.5f);
+            pPlayer.getFoodData().eat(5, 0.65f);
             pPlayer.addEffect(new MobEffectInstance(ModEffects.NOURISHMENT.get(), 1200));
             pLevel.setBlock(pPos, pState.setValue(BITES, bites + 1), 3);
             pLevel.playSound(null, pPos, SoundEvents.GENERIC_EAT, SoundSource.PLAYERS, 0.8F, 0.8F);

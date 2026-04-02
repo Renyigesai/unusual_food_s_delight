@@ -2,6 +2,7 @@ package com.renyigesai.unusualfoodsdelight.client.renderer;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.math.Axis;
+import com.renyigesai.unusualfoodsdelight.block.clay_stove.ClayStoveBlock;
 import com.renyigesai.unusualfoodsdelight.block.clay_stove.ClayStoveBlockEntity;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.LevelRenderer;
@@ -13,15 +14,14 @@ import net.minecraft.world.item.ItemDisplayContext;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.phys.Vec2;
 import net.minecraftforge.items.ItemStackHandler;
-import vectorwing.farmersdelight.common.block.StoveBlock;
 
 public class ClayStoveRenderer implements BlockEntityRenderer<ClayStoveBlockEntity> {
     public ClayStoveRenderer(BlockEntityRendererProvider.Context context){
 
     }
     @Override
-    public void render(ClayStoveBlockEntity ClayStoveBlockEntity, float v, PoseStack poseStack, MultiBufferSource buffer, int combinedOverlayIn, int i1) {
-        Direction direction = ((Direction)ClayStoveBlockEntity.getBlockState().getValue(StoveBlock.FACING)).getOpposite();
+    public void render(ClayStoveBlockEntity ClayStoveBlockEntity, float v, PoseStack poseStack, MultiBufferSource buffer, int combinedLightIn, int combinedOverlayIn) {
+        Direction direction = ((Direction)ClayStoveBlockEntity.getBlockState().getValue(ClayStoveBlock.FACING)).getOpposite();
         ItemStackHandler inventory = ClayStoveBlockEntity.getInventory();
         int posLong = (int)ClayStoveBlockEntity.getBlockPos().asLong();
 

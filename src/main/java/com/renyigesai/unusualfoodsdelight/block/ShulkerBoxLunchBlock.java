@@ -54,7 +54,7 @@ public class ShulkerBoxLunchBlock extends HorizontalDirectionalBlock {
             return InteractionResult.SUCCESS;
         }
         if (pPlayer.canEat(false)) {
-            pPlayer.getFoodData().eat(5, 6.5f);
+            pPlayer.getFoodData().eat(5, 0.65f);
             pPlayer.addEffect(new MobEffectInstance(MobEffects.LEVITATION, 40));
             pPlayer.addEffect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 1200, 3));
             pPlayer.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 200, 4));

@@ -22,7 +22,6 @@ import net.minecraft.world.phys.shapes.BooleanOp;
 import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraftforge.items.ItemStackHandler;
-import vectorwing.farmersdelight.common.block.StoveBlock;
 import vectorwing.farmersdelight.common.block.entity.SyncedBlockEntity;
 import vectorwing.farmersdelight.common.mixin.accessor.RecipeManagerAccessor;
 import vectorwing.farmersdelight.common.utility.ItemUtils;
@@ -76,7 +75,7 @@ public class ClayStoveBlockEntity extends SyncedBlockEntity {
     }
 
     public static void cookingTick(Level level, BlockPos pos, BlockState state, ClayStoveBlockEntity stove) {
-        boolean isStoveLit = (Boolean)state.getValue(StoveBlock.LIT);
+        boolean isStoveLit = (Boolean)state.getValue(ClayStoveBlock.LIT);
         if (stove.isStoveBlockedAbove()) {
             if (!ItemUtils.isInventoryEmpty(stove.inventory)) {
                 ItemUtils.dropItems(level, pos, stove.inventory);
@@ -98,7 +97,7 @@ public class ClayStoveBlockEntity extends SyncedBlockEntity {
         for(int i = 0; i < stove.inventory.getSlots(); ++i) {
             if (!stove.inventory.getStackInSlot(i).isEmpty() && level.random.nextFloat() < 0.2F) {
                 Vec2 stoveItemVector = stove.getStoveItemOffset(i);
-                Direction direction = (Direction)state.getValue(StoveBlock.FACING);
+                Direction direction = (Direction)state.getValue(ClayStoveBlock.FACING);
                 int directionIndex = direction.get2DDataValue();
                 Vec2 offset = directionIndex % 2 == 0 ? stoveItemVector : new Vec2(stoveItemVector.y, stoveItemVector.x);
                 double x = (double)pos.getX() + 0.5 - (double)((float)direction.getStepX() * offset.x) + (double)((float)direction.getClockWise().getStepX() * offset.x);
@@ -211,7 +210,7 @@ public class ClayStoveBlockEntity extends SyncedBlockEntity {
             for(int i = 0; i < this.inventory.getSlots(); ++i) {
                 if (!this.inventory.getStackInSlot(i).isEmpty() && this.level.random.nextFloat() < 0.2F) {
                     Vec2 stoveItemVector = this.getStoveItemOffset(i);
-                    Direction direction = (Direction)this.getBlockState().getValue(StoveBlock.FACING);
+                    Direction direction = (Direction)this.getBlockState().getValue(ClayStoveBlock.FACING);
                     int directionIndex = direction.get2DDataValue();
                     Vec2 offset = directionIndex % 2 == 0 ? stoveItemVector : new Vec2(stoveItemVector.y, stoveItemVector.x);
                     double x = (double)this.worldPosition.getX() + 0.5 - (double)((float)direction.getStepX() * offset.x) + (double)((float)direction.getClockWise().getStepX() * offset.x);

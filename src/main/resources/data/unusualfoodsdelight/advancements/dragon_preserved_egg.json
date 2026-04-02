@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "unusualfoodsdelight:dragon_preserved_egg"
+    },
+    "title": {
+      "translate": "advancements.unusualfoodsdelight.dragon_preserved_egg.title"
+    },
+    "description": {
+      "translate": "advancements.unusualfoodsdelight.dragon_preserved_egg.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "egg": {
+      "trigger": "unusualfoodsdelight:dragon_preserved_egg"
+    }
+  },
+  "parent": "unusualfoodsdelight:unusual_food_s_delight_root"
+}

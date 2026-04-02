@@ -4,8 +4,8 @@
   [
     {
       "condition": "forge:loot_table_id",
-      "loot_table_id": "minecraft:entities/ruined_portal"
+      "loot_table_id": "minecraft:chests/ruined_portal"
     }
   ],
-  "lootTable": "unusualfoodsdelight:entities/id_human_sauce_bread"
+  "lootTable": "unusualfoodsdelight:chests/id_human_sauce_bread"
 }

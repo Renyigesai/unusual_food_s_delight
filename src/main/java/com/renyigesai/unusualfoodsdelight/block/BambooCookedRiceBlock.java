@@ -61,7 +61,7 @@ public class BambooCookedRiceBlock extends HorizontalDirectionalBlock {
             pLevel.destroyBlock(pPos,false);
             return InteractionResult.SUCCESS;
         }
-        pPlayer.getFoodData().eat(5,5f);
+        pPlayer.getFoodData().eat(5,0.5f);
         pLevel.setBlock(pPos,pState.setValue(BITES,bites+1),3);
         pLevel.playSound(null,pPos, SoundEvents.GENERIC_EAT, SoundSource.PLAYERS, 0.8F, 0.8F);
         return InteractionResult.SUCCESS;

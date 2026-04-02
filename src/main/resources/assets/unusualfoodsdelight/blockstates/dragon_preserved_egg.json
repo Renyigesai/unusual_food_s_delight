@@ -1,0 +1,15 @@
+{
+  "variants": {
+    "facing=east,knock=false": {"model": "unusualfoodsdelight:block/dragon_preserved_egg", "y": 270},
+    "facing=east,knock=true": {"model": "unusualfoodsdelight:block/dragon_preserved_egg_knock", "y": 270},
+
+    "facing=north,knock=false": {"model": "unusualfoodsdelight:block/dragon_preserved_egg", "y": 180},
+    "facing=north,knock=true": {"model": "unusualfoodsdelight:block/dragon_preserved_egg_knock", "y": 180},
+
+    "facing=south,knock=false": {"model": "unusualfoodsdelight:block/dragon_preserved_egg"},
+    "facing=south,knock=true": {"model": "unusualfoodsdelight:block/dragon_preserved_egg_knock"},
+
+    "facing=west,knock=false": {"model": "unusualfoodsdelight:block/dragon_preserved_egg", "y": 90},
+    "facing=west,knock=true": {"model": "unusualfoodsdelight:block/dragon_preserved_egg_knock", "y": 90}
+  }
+}

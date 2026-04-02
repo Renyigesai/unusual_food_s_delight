@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.renyigesai.unusual_food_s_delight.test.iml" filepath="$PROJECT_DIR$/.idea/modules/com.renyigesai.unusual_food_s_delight.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mod_working_area.unusual_food_s_delight.test.iml" filepath="$PROJECT_DIR$/.idea/modules/mod_working_area.unusual_food_s_delight.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/unusual_food_s_delight.main.iml" filepath="$PROJECT_DIR$/.idea/modules/unusual_food_s_delight.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/unusual_food_s_delight.test.iml" filepath="$PROJECT_DIR$/.idea/modules/unusual_food_s_delight.test.iml" />
     </modules>

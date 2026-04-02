@@ -8,12 +8,13 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
+import net.minecraft.world.item.Rarity;
 import net.minecraft.world.level.Level;
 import vectorwing.farmersdelight.common.item.ConsumableItem;
 
 public class HumanSauceBreadItem extends ConsumableItem {
     public HumanSauceBreadItem() {
-        super(new Item.Properties().food(UdFood.HUMAN_SAUCE_BREAD), true);
+        super(new Item.Properties().food(UdFood.HUMAN_SAUCE_BREAD).rarity(Rarity.EPIC), true);
     }
 
     @Override

@@ -2,7 +2,7 @@
   "type": "farmersdelight:cooking",
   "ingredients": [
     {
-      "item": "unusualfoodsdelight:zombie_oil_block"
+      "item": "minecraft:rotten_flesh"
     },
     {
       "item": "minecraft:rotten_flesh"

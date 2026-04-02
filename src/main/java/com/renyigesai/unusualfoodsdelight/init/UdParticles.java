@@ -9,7 +9,7 @@ import net.minecraftforge.fml.common.Mod;
 public class UdParticles {
     @SubscribeEvent
     public static void registerParticles(RegisterParticleProvidersEvent event) {
-//        event.registerSpriteSet(UdParticleTypes.KWAT.get(), SmokedMeatParticle.CosyProvider);
+
     }
 
 }

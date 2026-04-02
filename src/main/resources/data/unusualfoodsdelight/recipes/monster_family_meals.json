@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "unusualfoodsdelight:infested_cheese_cube"
+    },
+    {
+      "item": "unusualfoodsdelight:bad_crispy_pork"
+    },
+    {
+      "item": "unusualfoodsdelight:spider_leg_tempura"
+    },
+    {
+      "item": "minecraft:bucket"
+    }
+  ],
+  "result": {
+    "item": "unusualfoodsdelight:monster_family_meals",
+    "count": 1
+  }
+}

@@ -54,7 +54,7 @@ public class CheeseLasagnaBlock extends HorizontalDirectionalBlock {
             return InteractionResult.SUCCESS;
         }
         if (pPlayer.canEat(false)) {
-            pPlayer.getFoodData().eat(6, 7.5f);
+            pPlayer.getFoodData().eat(6, 0.625f);
             pLevel.setBlock(pPos, pState.setValue(BITES, bites + 1), 3);
             pLevel.playSound(null, pPos, SoundEvents.GENERIC_EAT, SoundSource.PLAYERS, 0.8F, 0.8F);
             return InteractionResult.SUCCESS;

@@ -96,7 +96,12 @@
   "item.unusualfoodsdelight.silverfish_meatball_soup": "Silverfish Meatball Soup",
   "item.unusualfoodsdelight.bad_flesh": "Bad Flesh",
   "item.unusualfoodsdelight.bad_sausage": "Bad Sausage",
+  "item.unusualfoodsdelight.bad_crispy_pork": "Bad Crispy Pork",
+  "item.unusualfoodsdelight.reversal_chorus_fruit_milk_shake": "Reversal Chorus Fruit Milk Shake",
+  "item.unusualfoodsdelight.infested_cheese_cube": "Infested Cheese Cube",
+  "item.unusualfoodsdelight.monster_family_meals": "Monster Family Meals",
   "block.unusualfoodsdelight.soft_cheese": "Soft Cheese",
+  "block.unusualfoodsdelight.infested_cheese": "Infested Cheese",
   "item.unusualfoodsdelight.bake_spider_legs": "Bake Spider Legs",
   "sugarcane.juice.text": "§9Instantly restores a small amount of health",
   "item.unusualfoodsdelight.energy_bar": "Energy Bar",
@@ -137,5 +142,13 @@
   "advancements.get_zombie_oil_nian_gao.title": "When people praise each other, they become taller",
   "advancements.get_zombie_oil_nian_gao.descr": "Get Zombie Oil Nian Gao.",
   "advancements.eat_shroomlight_bread.title": "§dKi§br§ea §dKi§br§ea!",
-  "advancements.eat_shroomlight_bread.descr": "§dEat §bShroomlight §eBread."
+  "advancements.eat_shroomlight_bread.descr": "§dEat §bShroomlight §eBread.",
+  "advancements.get_infested_cheese.title": "Jump Scare",
+  "advancements.get_infested_cheese.descr": "Get Infested Cheese Cube.",
+  "advancements.unusualfoodsdelight.dragon_preserved_egg.title": "Will you come home for dinner?",
+  "advancements.unusualfoodsdelight.dragon_preserved_egg.descr": "Wrap a dragon egg in salt and then witness its transformation.",
+  "item.unusualfoodsdelight.essential_balm": "Essential Balm",
+  "block.unusualfoodsdelight.dragon_preserved_egg": "Dragon Preserved Egg",
+  "tooltip.unusualfoodsdelight.dragon_preserved_egg": "You need to use a pickaxe to break it open.",
+  "effect.unusualfoodsdelight.instant_shadow": "Instant Shadow"
 }

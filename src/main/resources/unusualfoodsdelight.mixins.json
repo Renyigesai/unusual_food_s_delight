@@ -5,8 +5,12 @@
   "compatibilityLevel": "JAVA_8",
   "refmap": "unusualfoodsdelight.refmap.json",
   "mixins": [
+    "DragonEggBlockMixin",
+    "ItemHurtEnemyMixin",
+    "LivingEntityMixin"
   ],
   "client": [
+    "LivingEntityRendererMixin"
   ],
   "injectors": {
     "defaultRequire": 1

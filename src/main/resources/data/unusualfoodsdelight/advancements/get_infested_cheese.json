@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "unusualfoodsdelight:infested_cheese"
+    },
+    "title": {
+      "translate": "advancements.get_infested_cheese.title"
+    },
+    "description": {
+      "translate": "advancements.get_infested_cheese.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "infested_cheese": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "unusualfoodsdelight:infested_cheese_cube"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "parent": "unusualfoodsdelight:just_melt_in_the_mouth"
+}
