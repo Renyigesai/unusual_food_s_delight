@@ -4,6 +4,7 @@ import com.renyigesai.unusualfoodsdelight.init.UdEnchantments;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.enchantment.Enchantment;
@@ -13,7 +14,8 @@ import net.minecraft.world.item.enchantment.Enchantments;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.phys.AABB;
 import net.minecraft.world.phys.Vec3;
-import net.minecraftforge.event.entity.living.LivingHurtEvent;
+import net.minecraftforge.event.entity.living.LivingKnockBackEvent;
+import net.minecraftforge.event.entity.player.AttackEntityEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import vectorwing.farmersdelight.common.registry.ModItems;
@@ -51,15 +53,15 @@ public class WhackEnchantment extends Enchantment {
         return this != ench && !List.of(Enchantments.SWEEPING_EDGE).contains(ench);
     }
 
-    @Mod.EventBusSubscriber
+@Mod.EventBusSubscriber
+@SuppressWarnings("unused")
     public static class WhackEnchantmentEvent {
         @SubscribeEvent
-        @SuppressWarnings("unused")
-        public static void onWhackElimination(LivingHurtEvent event){
-            Level world = event.getEntity().level();
-            Entity sEntity = event.getSource().getEntity();
-            Entity entity = event.getEntity();
-            if (sEntity == null || entity == null){
+        public static void onWhackElimination(AttackEntityEvent event){
+            Entity sEntity = event.getEntity();
+            Entity entity = event.getTarget();
+            Level world = entity.level();
+            if (sEntity == null){
                 return;
             }
             if (sEntity instanceof Player player) {
@@ -79,14 +81,27 @@ public class WhackEnchantment extends Enchantment {
                     if (!tempEntityList.isEmpty()) {
                         entityList.addAll(tempEntityList);
                     }
+                    float f = (float)player.getAttributeValue(Attributes.ATTACK_DAMAGE);
                     for (Entity e : entityList) {
                         if (e instanceof LivingEntity livingEntity && livingEntity != player) {
                             livingEntity.setDeltaMovement(new Vec3(ex, 0.3 * enchantmentLevel, ez));
-                            livingEntity.hurt(event.getSource(), (float) (event.getAmount()*damage));
+                            livingEntity.hurt(player.damageSources().playerAttack(player), (float) (f * damage));
                         }
                     }
                 }
             }
         }
+
+    @SubscribeEvent
+    public static void onKnockBack(LivingKnockBackEvent event) {
+        LivingEntity lastAttacker = event.getEntity().getLastAttacker();
+        if (lastAttacker instanceof Player player){
+            ItemStack mainHandItem = player.getMainHandItem();
+            int itemEnchantmentLevel = EnchantmentHelper.getItemEnchantmentLevel(UdEnchantments.WHACK.get(), mainHandItem);
+            if (itemEnchantmentLevel > 0){
+                event.setCanceled(true);
+            }
+        }
+    }
     }
 }
