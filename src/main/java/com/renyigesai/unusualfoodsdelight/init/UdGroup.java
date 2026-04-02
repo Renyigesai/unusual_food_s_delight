@@ -31,12 +31,15 @@ public class UdGroup {
                         output.accept(UdItems.GOAT_MILK_BUCKET.get());
                         output.accept(UdItems.SOFT_CHEESE.get());
                         output.accept(UdItems.SOFT_CHEESE_CUBE.get());
+                        output.accept(UdItems.INFESTED_CHEESE.get());
+                        output.accept(UdItems.INFESTED_CHEESE_CUBE.get());
                         output.accept(UdItems.SHREDDED_LEAVES.get());
                         output.accept(UdItems.SPIDER_LEGS.get());
                         output.accept(UdItems.BAKE_SPIDER_LEGS.get());
                         output.accept(UdItems.SPIDER_LEG_TEMPURA.get());
                         output.accept(UdItems.SILVERFISH_MEATBALL.get());
                         output.accept(UdItems.BAD_FLESH.get());
+                        output.accept(UdItems.BAD_CRISPY_PORK.get());
                         output.accept(UdItems.BAM_BAM_SMOKED_MEAT.get());
                         output.accept(UdItems.MINCED_BAD_FLESH.get());
                         output.accept(UdItems.BAD_SAUSAGE.get());
@@ -71,12 +74,14 @@ public class UdGroup {
                         output.accept(UdItems.PASTA_WITH_SMOKED_MEAT.get());
                         output.accept(UdItems.CHEESE_LASAGNA.get());
                         output.accept(UdItems.ROAST_CREAM_MIXED_MONSTER.get());
+                        output.accept(UdItems.MONSTER_FAMILY_MEALS.get());
                         output.accept(UdItems.SILVERFISH_MEATBALL_SOUP.get());
                         output.accept(UdItems.MUSHROOM_BEEF_STEW.get());
                         output.accept(UdItems.RAW_BARBECUE.get());
                         output.accept(UdItems.BLAZE_BARBECUE.get());
+                        output.accept(UdItems.DRAGON_PRESERVED_EGG.get());
                         output.accept(UdItems.STONE_BRICKS_TRAP.get());
-
+//                        output.accept(UdItems.ESSENTIAL_BALM.get());
                     }))
                     .build());
 }

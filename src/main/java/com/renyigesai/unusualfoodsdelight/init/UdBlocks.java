@@ -24,7 +24,6 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import vectorwing.farmersdelight.common.block.PieBlock;
-import vectorwing.farmersdelight.common.registry.ModBlocks;
 
 import java.util.function.ToIntFunction;
 
@@ -88,7 +87,10 @@ public class UdBlocks {
             new RoastCreamMixedMonsterBlock(BlockBehaviour.Properties.copy(Blocks.CAKE)));
 
     public static final RegistryObject<Block> SOFT_CHEESE = BLOCKS.register("soft_cheese",()->
-            new SoftCheeseBlock(BlockBehaviour.Properties.of().strength(0.5f).sound(SoundType.HONEY_BLOCK)));
+            new SoftCheeseBlock(BlockBehaviour.Properties.of().strength(0.0f).sound(SoundType.HONEY_BLOCK)));
+
+    public static final RegistryObject<Block> INFESTED_CHEESE = BLOCKS.register("infested_cheese",()->
+            new InfestedCheeseBlock(BlockBehaviour.Properties.of().strength(0.0f).sound(SoundType.HONEY_BLOCK)));
 
     public static final RegistryObject<LiquidBlock> SALT_WATER_BLOCK = BLOCKS.register("salt_water_block", SaltWaterFluidsBlock::new);
 
@@ -106,6 +108,9 @@ public class UdBlocks {
 
     public static final RegistryObject<Block> STONE_BRICKS_TRAP = BLOCKS.register("stone_bricks_trap", ()->
             new StoneBricksTrapBlock(BlockBehaviour.Properties.copy(Blocks.STONE)));
+
+    public static final RegistryObject<Block> DRAGON_PRESERVED_EGG = BLOCKS.register("dragon_preserved_egg", ()->
+            new DragonPreservedEggBlock(BlockBehaviour.Properties.copy(Blocks.DRAGON_EGG)));
 
     public static void register(IEventBus eventBus) {
         BLOCKS.register(eventBus);

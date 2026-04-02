@@ -4,6 +4,8 @@ import com.renyigesai.unusualfoodsdelight.UnusualFoodDelight;
 import com.renyigesai.unusualfoodsdelight.fluid.UdFluidTypes;
 import com.renyigesai.unusualfoodsdelight.fluid.UdFluids;
 import com.renyigesai.unusualfoodsdelight.item.*;
+import net.minecraft.ChatFormatting;
+import net.minecraft.network.chat.TextColor;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.*;
 import net.minecraft.world.level.block.Block;
@@ -14,9 +16,12 @@ import vectorwing.farmersdelight.common.item.ConsumableItem;
 import vectorwing.farmersdelight.common.item.DrinkableItem;
 
 import java.util.function.Supplier;
+import java.util.function.UnaryOperator;
 
 public class UdItems {
     public static final DeferredRegister<Item> REGISTER = DeferredRegister.create(ForgeRegistries.ITEMS, UnusualFoodDelight.MODID);
+    public static final Rarity SPRING = Rarity.create("spring",  style -> style.withColor(TextColor.fromRgb(0XFF7DE3)));
+    public static final Rarity MONSTER = Rarity.create("monster",  style -> style.withColor(TextColor.fromRgb(0XC24E4E)));
     /*方块物品*/
     public static final RegistryObject<Item> HANG_LANTERN;
     public static final RegistryObject<Item> CLAY_STOVE;
@@ -28,6 +33,7 @@ public class UdItems {
     public static final RegistryObject<Item> LOOSE_SALT_BLOCK;
     public static final RegistryObject<Item> STONE_BRICKS_TRAP;
     public static final RegistryObject<Item> SMOKED_MEAT_HOOK;
+    public static final RegistryObject<Item> INFESTED_CHEESE;
 
     /*食材*/
     public static final RegistryObject<Item> SPIDER_LEGS;
@@ -79,6 +85,12 @@ public class UdItems {
     public static final RegistryObject<Item> SHROOMLIGHT_BREAD;
     public static final RegistryObject<Item> SHROOMLIGHT_HAMBURGER;
     public static final RegistryObject<Item> ZOMBIE_OIL_NIAN_GAO;
+    public static final RegistryObject<Item> BAD_CRISPY_PORK;
+    public static final RegistryObject<Item> REVERSAL_CHORUS_FRUIT_MILK_SHAKE;
+    public static final RegistryObject<Item> INFESTED_CHEESE_CUBE;
+    public static final RegistryObject<Item> MONSTER_FAMILY_MEALS;
+    public static final RegistryObject<Item> ESSENTIAL_BALM;
+    public static final RegistryObject<Item> DRAGON_PRESERVED_EGG;
 
 
     static {
@@ -93,9 +105,10 @@ public class UdItems {
         LOOSE_SALT_BLOCK = block(UdBlocks.LOOSE_SALT_BLOCK);
         STONE_BRICKS_TRAP = block(UdBlocks.STONE_BRICKS_TRAP);
         SMOKED_MEAT_HOOK = block(UdBlocks.SMOKED_MEAT_HOOK);
+        INFESTED_CHEESE = block(UdBlocks.INFESTED_CHEESE);
 
         /*食材*/
-        SPIDER_LEGS = food("spider_legs",UdFood.SPIDER_LEGS);
+        SPIDER_LEGS = food("spider_legs",UdFood.SPIDER_LEGS,MONSTER);
         SHREDDED_LEAVES = item("shredded_leaves");
         SALT = item("salt");
         SALTED_FISH = food("salted_fish",UdFood.SALTED_FISH);
@@ -171,7 +184,7 @@ public class UdItems {
         BLAZE_BARBECUE = bowlFoodItem("blaze_barbecue",UdFood.BLAZE_BARBECUE,true);
 
         SPRING_DRINKS = REGISTER.register("spring_drinks",()->
-                new DrinkableItem(new Item.Properties().craftRemainder(Items.GLASS_BOTTLE).stacksTo(16).food(UdFood.SPRING_DRINKS),true));
+                new DrinkableItem(new Item.Properties().craftRemainder(Items.GLASS_BOTTLE).stacksTo(16).food(UdFood.SPRING_DRINKS).rarity(SPRING),true));
 
         SPIDER_LEG_TEMPURA = food("spider_leg_tempura",UdFood.SPIDER_LEG_TEMPURA);
 
@@ -184,6 +197,18 @@ public class UdItems {
         ZOMBIE_OIL_NIAN_GAO = food("zombie_oil_nian_gao",UdFood.ZOMBIE_OIL_NIAN_GAO,true);
 
         PASTA_WITH_SMOKED_MEAT = bowlFoodItem("pasta_with_smoked_meat",UdFood.PASTA_WITH_SMOKED_MEAT,true);
+
+        BAD_CRISPY_PORK = food("bad_crispy_pork",UdFood.BAD_CRISPY_PORK);
+
+        REVERSAL_CHORUS_FRUIT_MILK_SHAKE = REGISTER.register("reversal_chorus_fruit_milk_shake", ReversalChorusFruitDrinkableItem::new);
+
+        INFESTED_CHEESE_CUBE = REGISTER.register("infested_cheese_cube",()-> new ConsumableItem(new Item.Properties().food(UdFood.INFESTED_CHEESE_CUBE),true));
+
+        MONSTER_FAMILY_MEALS = REGISTER.register("monster_family_meals",()-> new ConsumableItem(new Item.Properties().food(UdFood.MONSTER_FAMILY_MEALS).craftRemainder(Items.BUCKET).rarity(Rarity.UNCOMMON),true));
+
+        ESSENTIAL_BALM = REGISTER.register("essential_balm",()-> new Item(new Item.Properties().stacksTo(16).craftRemainder(Items.GLASS_BOTTLE)));
+
+        DRAGON_PRESERVED_EGG = block(UdBlocks.DRAGON_PRESERVED_EGG);
     }
 
 
@@ -201,6 +226,10 @@ public class UdItems {
 
     private static RegistryObject<Item> food(String pName, FoodProperties foodProperties) {
         return REGISTER.register(pName, () -> new Item(new Item.Properties().food(foodProperties)));
+    }
+
+    private static RegistryObject<Item> food(String pName, FoodProperties foodProperties,Rarity rarity) {
+        return REGISTER.register(pName, () -> new Item(new Item.Properties().food(foodProperties).rarity(rarity)));
     }
 
     private static RegistryObject<Item> food(String pName, FoodProperties foodProperties,boolean tips) {

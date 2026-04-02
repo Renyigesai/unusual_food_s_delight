@@ -97,4 +97,10 @@ public class UdFood {
 
     public static final FoodProperties ZOMBIE_OIL_NIAN_GAO = new FoodProperties.Builder().nutrition(5).saturationMod(0.8F).effect(()->new MobEffectInstance(MobEffects.FIRE_RESISTANCE,3600),1F).effect(new MobEffectInstance(MobEffects.HUNGER,200),0.3F).alwaysEat().build();
 
+    public static final FoodProperties BAD_CRISPY_PORK = new FoodProperties.Builder().nutrition(8).saturationMod(0.75F).build();
+
+    public static final FoodProperties INFESTED_CHEESE_CUBE = new FoodProperties.Builder().nutrition(6).saturationMod(1F).effect(()-> new MobEffectInstance(MobEffects.CONFUSION,200),1F).effect(()-> new MobEffectInstance(MobEffects.SATURATION),1F).build();
+
+    public static final FoodProperties MONSTER_FAMILY_MEALS = new FoodProperties.Builder().nutrition(20).saturationMod(0.5F).effect(()-> new MobEffectInstance(ModEffects.NOURISHMENT.get(),6000),1F).effect(()-> new MobEffectInstance(MobEffects.DAMAGE_BOOST,6000,1),1F).build();
+
 }
