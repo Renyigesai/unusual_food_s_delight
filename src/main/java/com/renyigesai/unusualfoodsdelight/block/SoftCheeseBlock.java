@@ -58,6 +58,7 @@ public class SoftCheeseBlock extends HorizontalDirectionalBlock {
         return p_54122_.rotate(p_54123_.getRotation(p_54122_.getValue(FACING)));
     }
 
+    @SuppressWarnings("all")
     @Override
     public InteractionResult use(BlockState state, Level level, BlockPos pos, Player player, InteractionHand hand, BlockHitResult hitResult) {
         ItemStack hand1 = player.getItemInHand(hand);

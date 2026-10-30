@@ -208,7 +208,7 @@ public class UdItems {
 
         ESSENTIAL_BALM = REGISTER.register("essential_balm",()-> new Item(new Item.Properties().stacksTo(16).craftRemainder(Items.GLASS_BOTTLE)));
 
-        DRAGON_PRESERVED_EGG = block(UdBlocks.DRAGON_PRESERVED_EGG);
+        DRAGON_PRESERVED_EGG = REGISTER.register("dragon_preserved_egg",()-> new BlockItem(UdBlocks.DRAGON_PRESERVED_EGG.get(), new Item.Properties().rarity(Rarity.EPIC).stacksTo(1)));
     }
 
 

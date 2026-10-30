@@ -48,9 +48,9 @@ public class UnusualFoodDelight {
         LOGGER.info("HELLO from server starting");
     }
 
-    @SubscribeEvent
-    public void onTooltipColor(RenderTooltipEvent.Color event) {
-    }
+//    @SubscribeEvent
+//    public void onTooltipColor(RenderTooltipEvent.Color event) {
+//    }
 
     public void registerTrigger(){
         CriteriaTriggers.register(DRAGON_PRESERVED_EGG_TRIGGER);
